@@ -1,58 +1,31 @@
 <!DOCTYPE html>
 <html>
+
   <head>
-    <title>{% if page.title %}{{ page.title }} – {% endif %}{{ site.name }} – {{ site.description }}</title>
-    {% seo title=false %}
-    {% include meta.html %}
-
-    <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/assets/style.css" />
-    <link rel="alternate" type="application/rss+xml" title="{{ site.name }} - {{ site.description }}" href="{{ site.baseurl }}/feed.xml" />
-    <link rel="canonical" href="{{ site.url }}{{ page.url }}" />
-
-    <meta name="theme-color" content="#000000">
-    <link rel="icon" type="image/png" sizes="32x32" href="{{ site.baseurl }}/images/prof_pic.png">
-    {% include analytics_head.html %}
+    {% include head.html %}
+    {% include scripts/mathjax.html %}
   </head>
 
-  <body>
-    <div id="bar"></div>
-    <div class="wrapper-container">
-      <div class="wrapper-masthead">
-        <div class="container">
-          <header class="masthead clearfix">
-            <a href="{{ site.baseurl }}/" class="site-avatar"><img src="{{ site.baseurl }}{{ site.avatar }}" alt="{{ site.title }}" /></a>
+  <body class="{% if site.navbar_fixed %}fixed-top-nav{% endif %} {% unless site.footer_fixed %}sticky-bottom-footer{% endunless %}">
 
-            <div class="site-info">
-              <h1 class="site-name"><a href="{{ site.baseurl }}/">{{ site.name }}</a></h1>
-              <p class="site-description">{{ site.description }}</p> 
-            </div>
+    <!-- Header -->
 
-            <nav>
-              <a href="{{ site.baseurl }}/">Home</a>
-              {% comment %} <a href="{{ site.baseurl }}/getting-started">Getting Started</a> {% endcomment %}
-              <a href="https://github.com/jzchan132/website/blob/master/Joseph_Chan_CV.pdf">CV</a>
-              <a href="{{ site.baseurl }}/search">Search</a>
-              {% comment %} <a href="{{ site.baseurl }}/archive">Archive</a> {% endcomment %}
-            </nav>
-          </header>
-        </div>
-      </div>
+    {% include header.html %}
 
-      <div class="wrapper-main">
-        <div id="main" role="main" class="container">
-          {{ content }}
-        </div>
-      </div>
+    <!-- Content -->
 
-      <div class="wrapper-footer">
-        <div class="container">
-          <footer class="footer">
-            {% include svg-icons.html %}
-          </footer>
-        </div>
-      </div>
+    <div class="container mt-5">
+      {{ content }}
     </div>
 
-    {% include analytics.html %}
+    <!-- Footer -->
+
+    {% include footer.html %}
+
   </body>
+
+  {% include scripts/bootstrap.html %}
+  {% include scripts/mansory.html %}
+  {% include scripts/misc.html %}
+
 </html>

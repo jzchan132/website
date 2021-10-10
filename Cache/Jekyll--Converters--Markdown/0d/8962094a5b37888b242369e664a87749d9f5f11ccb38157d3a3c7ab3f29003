@@ -1,0 +1,67 @@
+I"<!-- 
+Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com){:target="\_blank"}. You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+
+Put your address / P.O. box / other info right below your picture. You can also disable any these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
+
+Link to your social media connections, too. This theme is set up to use [Font Awesome icons](http://fortawesome.github.io/Font-Awesome/){:target="\_blank"} and [Academicons](https://jpswalsh.github.io/academicons/){:target="\_blank"}, like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them. -->
+
+<p>I am a Computer Science major Physics minor undergrad at University of Maryland, College Park.</p>
+
+<p>I am interested in Artifical Intelligence specifically, Natural Language Processing, and would love to join a relevant research laboratory.  <br />
+<br /><br /></p>
+
+<h4 id="experience">Experience</h4>
+
+<p><strong>First-Year Innovation &amp; Research Experience (FIRE)</strong> @ University of Maryland</p>
+
+<p><em>Student Researcher, Capital One Machine Learning (COML) Stream</em></p>
+
+<table>
+  <tbody>
+    <tr>
+      <td>Aug. 2019 - Dec. 2020</td>
+      <td>College Park, MD</td>
+    </tr>
+  </tbody>
+</table>
+
+<ul>
+  <li>Implemented deep learning models for various computer vision and NLP tasks, using Keras and TensorFlow.</li>
+  <li>Trained deep learning models, using both cloud (Google Colab, Google Compute Engine) and university GPU servers.</li>
+  <li>Extracted insights from real-world datasets, using spreadsheet tools like conditional/lookup functions and pivot tables.
+<a></a></li>
+</ul>
+
+<p><strong>CBCM</strong> <br />
+<em>Software Engineering Intern</em> <br />
+June 2019 - Aug. 2019  |  Gaithersburg, MD <br /></p>
+<ul>
+  <li>Open Sesame is an in-house Android app for wirelessly managing building access, especially during o-hours. Users on the
+building’s network can easily control physical door locks via the Open Sesame app.</li>
+  <li>Independently revamped Open Sesame’s codebase (C#, Xamarin) to patch existing login vulnerabilities and make the app
+compatible with Android 8.1.</li>
+  <li>Regularly met with both technical and non-technical collaborators to discuss design specifications, present progress
+updates, and obtain user experience feedback.
+<a></a></li>
+</ul>
+
+<p><strong>U.S. Army Research Laboratory</strong> /
+<em>Research Intern</em> /
+June 2018 - Aug. 2018  |  Adelphi, MD /</p>
+<ul>
+  <li>Designed an algorithm for automatically reorienting laser communication gimbals in military vehicles, in order to maximize
+inter-vehicle signal strength in the battlefield. Implemented the gimbal adjustment algorithm using C++.
+<a></a></li>
+</ul>
+
+<p><strong>U.S. Army Research Laboratory</strong> <br />
+<em>Research Intern</em> <br />
+June 2017 - Aug. 2017  |  Adelphi, MD \</p>
+<ul>
+  <li>Built a Python+LabOne based laser system to automate the laborious process of locating spin defects in silicon carbide
+samples. Such spin defects are useful for many applications, such as quantum computing, cryptography, and bioimaging.</li>
+  <li>Created an intuitive GUI with Tkinter and Matplotlib to help a team of physicists easily run the laser system and visualize
+their results with 3D plots, thus greatly speeding up their experiments.
+<a></a></li>
+</ul>
+:ET
