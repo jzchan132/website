@@ -1,8 +1,6 @@
 ---
-layout: page
+layout: post
 title: Exploring Input Attributions
-description: NLP Tutorial
-importance: 1
+excerpt: NLP Tutorial
 redirect: https://github.com/jzchan132/BWE
-category: personal
 ---
